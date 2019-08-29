@@ -1,0 +1,191 @@
+#
+#  General .gitignore
+#  It shall be in almost of our projects
+#
+
+# ===============================================
+#  Server config files
+# -----------------------------------------------
+
+# Apache
+.htaccess
+
+# IIS
+web.config
+
+# Rubinius
+*.rbc
+
+
+# ===============================================
+#  Wordpress
+# -----------------------------------------------
+
+**/content/advanced-cache.php
+**/content/backups/*
+**/content/cache/*
+**/content/upgrade/*
+# **/content/uploads/*
+**/content/wp-cache-config.php
+**/content/ewww/*
+**/content/wflogs/*
+
+
+
+# ===============================================
+# WP Starter
+# -----------------------------------------------
+
+# cms/*
+# content/plugins/*
+media/*
+_propostas/*
+
+# ===============================================
+#  General files
+# -----------------------------------------------
+
+readme.html
+license.txt
+sitemap.xml
+# local-config.php
+
+
+# ===============================================
+#  IDE config files
+# -----------------------------------------------
+
+# Sublime Text
+*.sublime*
+
+# NetBeans
+/nbproject/private/*
+nbproject
+
+# Eclipse
+.cache
+.project
+.settings
+.tmproj
+
+# Dreamweaver
+_notes
+dwsync.xml
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Espresso
+*.esproj
+*.espressostorage
+
+
+# ===============================================
+#  Numerous always-ignore extensions
+# -----------------------------------------------
+
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+*.bak
+
+
+# ===============================================
+# OS generated files
+# -----------------------------------------------
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.dropbox
+desktop.ini
+
+
+# ===============================================
+# Folders
+# -----------------------------------------------
+
+.hg
+.svn
+.CVS
+intermediate
+publish
+.idea
+bkp
+bkp-*
+backup
+backup-*
+ignore
+ignore-*
+
+
+# ===============================================
+#  Build script local files
+# -----------------------------------------------
+
+build/buildinfo.properties
+build/config/buildinfo.properties
+.buildpath
+
+
+# ===============================================
+# Compiled source
+# -----------------------------------------------
+
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+
+# ===============================================
+# Packages
+# -----------------------------------------------
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+# ===============================================
+# Logs and databases
+# -----------------------------------------------
+
+*.log
+*.sql
+*.sqlite
+
+
+# ===============================================
+# Specific Framework
+# -----------------------------------------------
+
+searchreplacedb2.php
+searchdb.php
+
+# ===============================================
+# DO NOT IGNORE THE FOLLOWING FILES
+# -----------------------------------------------
+!**/wp-includes/js/tinymce/wp-tinymce.js.gz
+!**/wp-includes/js/tinymce.code.min.js
+
+
