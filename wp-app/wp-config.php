@@ -38,7 +38,7 @@ $config_defaults = array(
 	'DB_COLLATE'              => '',
 
 	// Language
-	'WPLANG'                  => '',
+	'WPLANG'                  => 'pt_BR',
 
 	// Security Hashes (grab from: https://api.wordpress.org/secret-key/1.1/salt)
 	'AUTH_KEY'                => 'PZE-$j3m=[u#sNzik6Lz3-{pW(p*rp6qc1`>c.k$Hz(((a3 $W(rA,~!<U6$aU7)',
