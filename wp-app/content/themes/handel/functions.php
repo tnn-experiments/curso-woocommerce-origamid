@@ -10,3 +10,15 @@
         wp_enqueue_style('handel-style');
     }
     add_action('wp_enqueue_scripts', 'handel_css');
+
+    function handel_custon_images() {
+        add_image_size('slide', 1000, 800, ['center', 'top']);
+        update_option('medium_crop', 1);
+    }
+    add_action('after_setup_theme', 'handel_custon_images');
+
+
+    function handel_loop_shop_per_page() {
+        return 6;
+    }
+    add_filter('loop_shop_per_page', 'handel_loop_shop_per_page');

@@ -51,8 +51,8 @@ $config_defaults = array(
 	'NONCE_SALT'              => '7(<pSes9a}e9||X$PHQ6D1o|Y>I^_&M!w|00=`-3OzAmrP3$_>F,yP{jG/qnzktc',
 
 	// Security Directives
-	'DISALLOW_FILE_EDIT'      => true,
-	'DISALLOW_FILE_MODS'      => true,
+	// 'DISALLOW_FILE_EDIT'      => true,
+	// 'DISALLOW_FILE_MODS'      => true,
 	'FORCE_SSL_LOGIN'         => false,
 	'FORCE_SSL_ADMIN'         => false,
 
@@ -83,7 +83,8 @@ $config_defaults = array(
 
 	// Miscellaneous
 	'WP_POST_REVISIONS'       => true,
-	'WP_DEFAULT_THEME'        => 'handel'
+	'WP_DEFAULT_THEME'        => 'handel',
+	'FS_METHOD' 			  => 'direct'
 );
 
 // ==============================================================
