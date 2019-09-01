@@ -7,13 +7,7 @@
 
     function handel_css() {
         wp_register_style('handel-style', get_template_directory_uri() . '/style.css', array(), '1.0.0', false);
-
-        wp_register_style('handel-base', get_template_directory_uri() . '/css/base.css', array(), '1.0.0', false);
-        wp_register_style('handel-header', get_template_directory_uri() . '/css/header.css', array(), '1.0.0', false);
-
         wp_enqueue_style('handel-style');
-        wp_enqueue_style('handel-base');
-        wp_enqueue_style('handel-header');
     }
     add_action('wp_enqueue_scripts', 'handel_css');
 
