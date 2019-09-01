@@ -22,3 +22,22 @@
         return 6;
     }
     add_filter('loop_shop_per_page', 'handel_loop_shop_per_page');
+
+    function handel_product_list($products) { ?>
+        <ul class="products-list">
+            <?php foreach($products as $product) { ?>
+                <li class="product-item">
+                    <a href="<?= $product["link"]; ?>">
+                        <div class="product-info">
+                            <img src="<?= $product["img"]; ?>" alt="<?= $product["name"]; ?>">
+                            <h2><?= $product["name"]; ?> - <span><?= $product["price"]; ?></span></h2>
+                        </div>
+                        <div class="product-overlay">
+                            <span class="btn-link">Ver Mais</span>
+                        </div>
+                    </a>
+                </li>
+            <?php } ?>
+        </ul>
+    <?php    
+    } 
