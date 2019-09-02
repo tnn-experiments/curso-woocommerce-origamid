@@ -38,6 +38,16 @@
     align-self: end;
 }
 
+@media (max-width: 800px) {
+    .slide-item {
+        grid-template-columns: 1fr;
+    }
+
+    .slide-info {
+        margin-top: 20px;
+    }
+}
+
 .slide-preco {
     display: block;
     margin-bottom: 5px;
