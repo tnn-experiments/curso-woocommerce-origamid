@@ -49,15 +49,15 @@
     <div class="produto-gallery-main">
         <img data-gallery="main" src="<?= $produto['img']; ?>" alt="<?= $produto['name']; ?>">
     </div>
+</div>
 
-    <div class="product-info">
-        <small><?= $produto['sku']; ?></small>
-        <h1><?= $produto['name']; ?></h1>
-        <p class="product-price"><?= $produto['price']; ?></p>
-        <?php woocommerce_template_single_add_to_cart(); ?>
-        <h2>Descrição</h2>
-        <p><?= $produto['description']; ?></p>
-    </div>
+<div class="product-detail">
+    <small><?= $produto['sku']; ?></small>
+    <h1><?= $produto['name']; ?></h1>
+    <p class="product-price"><?= $produto['price']; ?></p>
+    <?php woocommerce_template_single_add_to_cart(); ?>
+    <h2>Descrição</h2>
+    <p><?= $produto['description']; ?></p>
 </div>
 
 
