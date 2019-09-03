@@ -71,3 +71,5 @@
         </ul>
     <?php    
     } 
+
+    include(get_template_directory() . '/inc/user-custom-menu.php');
