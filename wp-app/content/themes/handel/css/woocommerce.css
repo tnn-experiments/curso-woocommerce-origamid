@@ -142,3 +142,66 @@
     color: rgb(0, 0, 0, .4);
 }
 
+/* Minha conta */
+.woocommerce-account h2 {
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+
+.woocommerce-account.logged-in .woocommerce {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 30px;
+}
+
+@media (max-width: 800px) {
+    .woocommerce-account.logged-in .woocommerce {
+        grid-template-columns: 1fr;
+    }   
+}
+
+.woocommerce-account.logged-in .woocommerce::before,
+.woocommerce-account.logged-in .woocommerce::after {
+    display: none;
+}
+
+.woocommerce-account.logged-in .woocommerce-MyAccount-navigation,
+.woocommerce-account.logged-in .woocommerce-MyAccount-content {
+    width: auto;
+    float: none;
+}
+
+/* Estilo Sidmenu */
+.woocommerce-MyAccount-navigation ul {
+    background-color: #111; 
+}
+
+.woocommerce-MyAccount-navigation a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, .08);
+}
+
+.woocommerce-MyAccount-navigation a:hover {
+    background-color: orangered;
+}
+
+.woocommerce-MyAcount-navigation a:hover,
+.woocommerce-MyAcount-navigation .is-active a {
+    background-color: orangered;
+}
+
+.woocommerce-MyAccount-content p {
+    margin-bottom: 1rem;
+}
+
+.woocommerce-MyAccount-content button {
+    margin-top: 15px !important;
+}
+
+.woocommerce .woocommerce-customer-details address {
+    border-width: 1px;
+    border-radius: 0;
+}
