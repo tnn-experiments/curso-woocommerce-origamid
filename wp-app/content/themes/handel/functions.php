@@ -73,3 +73,4 @@
     } 
 
     include(get_template_directory() . '/inc/user-custom-menu.php');
+    include(get_template_directory() . '/inc/checkout-customizado.php');
