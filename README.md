@@ -15,16 +15,23 @@ docker-compose stop
 ```
 
 **Administrar WordPress**
+```txt
 login: handel
 senha: 123456
+```
 
 **Acesso localhost**
+```txt
 http://127.0.0.1/cms/
+```
 
 **Acesso phpMyAdmin**
+```txt
 http://127.0.0.1:8080
+
 login: root
 senha: root
+```
 
 **Referências**
 1. [Ambiente - WordPress Docker Compose](https://github.com/nezhar/wordpress-docker-compose)
