@@ -27,6 +27,6 @@ login: root
 senha: root
 
 **Referências**
-[Ambiente - WordPress Docker Compose](https://github.com/nezhar/wordpress-docker-compose)
-[Organização - WordPress Skeleton](https://github.com/markjaquith/WordPress-Skeleton)
-[Tema Handel](https://www.origamid.com/curso/woocommerce-como-cms)
+1. [Ambiente - WordPress Docker Compose](https://github.com/nezhar/wordpress-docker-compose)
+2. [Organização - WordPress Skeleton](https://github.com/markjaquith/WordPress-Skeleton)
+3. [Tema Handel](https://www.origamid.com/curso/woocommerce-como-cms)
